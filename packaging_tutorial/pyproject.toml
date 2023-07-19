@@ -1,0 +1,21 @@
+[project]
+name = "hello_python"
+version = "0.0.1"
+authors = [
+  { name="Daiki Hosoi", email="dahuix942@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+hello-python = "hello_python:hello_python"
+
+[project.urls]
+"Homepage" = "https://github.com/HosoDai/hello_python"
+"Bug Tracker" = "https://github.com/HosoDai/hello_python/issues"
